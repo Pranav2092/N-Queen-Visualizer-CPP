@@ -102,12 +102,22 @@ The board updates dynamically, pausing at each step to show progress.
 
 ## How to Run
 
+### Download the Code
+
+```bash
+# Clone the Repository
+$ git clone https://github.com/Pranav2092/N-Queen-Visualizer-CPP.git
+
+# Navigate into the directory
+$ cd N-Queen-Visualizer-CPP
+```
+
 ### Compilation
 Ensure you have a C++ compiler installed. Use the following commands to compile and run the program:
 
 ```bash
 # Compile the program
-$ g++ -o nqv NQueensVisualizer.cpp
+$ g++ -o nqv nqueenvisualizer.cpp
 
 # Run the program
 $ ./nqv
